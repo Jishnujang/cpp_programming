@@ -30,12 +30,12 @@ public:
     void display() {
         cout << "Account Holder: " << ownerName << endl;
         cout << "Account Number: " << accountNumber << endl;
-        cout << "Balance: $" << balance << endl;
+        cout << "Balance: Rs" << balance << endl;
     }
 };
 
 int main() {
-    BankAccount account1("John Doe", 123456, 1000.0);
+    BankAccount account1("Jishnu", 123456, 1000.0);
 
     account1.display();
 
